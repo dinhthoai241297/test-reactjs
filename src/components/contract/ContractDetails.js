@@ -37,13 +37,13 @@ class ContractDetails extends Component {
                                 . This offer ends <span className="c-underline">EXPIRY DATE</span>
                             </div>
                             <div className="c-details-box">
-                                <Link to='/' className="c-brr">
+                                <Link to='/contractdetails' className="c-brr">
                                     Accept
                                 </Link>
-                                <Link to='/' className="c-brr">
+                                <Link to='/contractdetails' className="c-brr">
                                     Counter offer
                                 </Link>
-                                <Link to='/'>
+                                <Link to='/contractdetails'>
                                     Reject
                                 </Link>
                             </div>

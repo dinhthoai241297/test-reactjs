@@ -6,7 +6,7 @@ class NavBottom extends Component {
         return (
             <div className="c-nav-bottom">
                 <div>
-                    <NavLink exact activeClassName="c-nav-bot-active" to="/">
+                    <NavLink exact activeClassName="c-nav-bot-active" to="/home">
                         <i className="fas fa-2x fa-home"></i>
                     </NavLink>
                 </div>

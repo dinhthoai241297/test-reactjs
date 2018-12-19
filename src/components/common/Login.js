@@ -10,13 +10,13 @@ class Login extends Component {
                     <img src={logo} width="100%" alt="img" />
                 </div>
                 <div className="c-center">
-                    <Link to='/' className="c-button c-bg-fb">
+                    <Link to='/home' className="c-button c-bg-fb">
                         FACEBOOK LOGIN
                     </Link>
-                    <Link to='/' className="c-button c-bg-googlep">
+                    <Link to='/home' className="c-button c-bg-googlep">
                         GOOGLE+ LOGIN
                     </Link>
-                    <Link to='/'>
+                    <Link to='/home'>
                         NEW USER SIGN UP
                     </Link>
                 </div>

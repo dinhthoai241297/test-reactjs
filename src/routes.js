@@ -9,8 +9,8 @@ import Notification from './components/notification/Notification';
 
 export default (
     <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/login" component={Login} />
+        <Route exact path="/home" component={Home} />
+        <Route exact path="/" component={Login} />
         <Route exact path="/create" component={CreateContract} />
         <Route exact path="/upload" component={UploadContract} />
         <Route exact path="/notification" component={Notification} />
