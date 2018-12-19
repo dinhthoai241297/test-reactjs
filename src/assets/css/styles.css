@@ -1,0 +1,265 @@
+/* #21c45f xanh lá */
+/* #f4f4f4 xám nhạt - background */
+/* #7495bd xanh da trời */
+/* #fd6e53 cam hồng - tab active */
+/* #989898 xám - tab */
+/* #3c599b xanh - fb */
+/* #5478c8 xanh - fb:hover */
+/* #db493c đỏ - google+ */
+/* #fd5647 đỏ - google+:hover */
+/* #a6a6a6 xám - text */
+
+body {
+    background: 'red';
+}
+
+/* login page */
+.c-bg-fb {
+    background-color: #3c599b;
+}
+
+.c-bg-fb:hover {
+    background-color: #5478c8;
+}
+
+.c-bg-googlep {
+    background-color: #db493c;
+}
+
+.c-bg-googlep:hover {
+    background-color: #fd5647;
+}
+
+.c-login-parent {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+}
+
+.c-login-parent .c-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.c-button {
+    width: 50%;
+    margin-bottom: 25px;
+    padding: 15px;
+    color: white !important;
+    outline: none !important;
+    border-radius: 40px;
+    box-shadow: none !important;
+    border: none !important;
+    transition: all .4s;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.c-login-parent .c-bottom {
+    background-color: #60c490;
+    padding: 15px 25px;
+}
+
+.c-login-parent .c-bottom i {
+    margin-right: 10px;
+}
+
+/* Nav Bottom */
+.c-nav-bottom {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    border-top: 0.1px solid #dcdcdc;
+}
+
+.c-nav-bottom div {
+    flex: 1;
+    text-align: center;
+}
+
+.c-nav-bottom div a {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #989898;
+    text-decoration: none !important;
+}
+
+.c-nav-bot-active {
+    color: #fd6e53 !important;
+}
+
+/* home page */
+.c-home-parent {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.c-home-main {
+    background-color: #f4f4f4;
+    flex: 1;
+}
+
+.c-home-main > div {
+    background-color: white;
+}
+
+/* create referral contract */
+.c-create-parent {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-create-parent .c-create-main {
+    flex: 1;
+    background-color: #f4f4f4;
+}
+
+.c-header {
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 0.1px solid #dcdcdc;
+}
+
+/* dif */
+.c-underline {
+    text-decoration: underline;
+}
+
+/* upload referral */
+.c-upload-parent {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-upload-parent .c-upload-main {
+    flex: 1;
+    background-color: #f4f4f4;
+}
+
+.c-upload-parent .c-upload-main .container .box {
+    padding: 30px;
+    border: 1px solid #cacaca;
+}
+
+/* Notification page */
+.c-notification-parent {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-notification-parent .c-notification-main {
+    flex: 1;
+    background-color: #f4f4f4;
+}
+
+.c-notification-parent .c-notification-main .container .c-box {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-notification-parent .c-notification-main .container .c-box .c-image {
+    border-radius: 70px;
+    width: 70px;
+    overflow: hidden;
+    background-color: white;
+    background-color: #dcdcdc;
+}
+
+.c-notification-parent .c-notification-main .container a {
+    text-decoration: none !important;
+}
+
+.c-box .c-image img {
+    transform: scale(0.6);
+}
+
+.c-notification-parent .c-notification-main .container .c-box .c-box-sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.c-color-green {
+    color: #21c45f;
+}
+
+.c-gray-txt {
+    color: #a6a6a6;
+}
+
+.c-black-txt {
+    color: #313131;
+}
+
+/* contract details */
+.c-ctdetails-parent {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-ctdetails-parent .c-ctdetails-main {
+    flex: 1;
+    background-color: #f4f4f4;
+}
+
+.c-ctdetails-parent .c-ctdetails-main .c-button-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.c-border-gray {
+    border: 1px solid #dcdcdc;
+}
+
+.c-ctdetails-parent .c-details-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.c-ctdetails-parent .c-details-box > a {
+    flex: 1;
+    text-align: center;
+    padding: 5px;
+    color: #7495bd !important;
+    text-decoration: none !important;
+    transition: all .4s;
+}
+
+.c-ctdetails-parent .c-details-box > a:hover {
+    background-color: #dcdcdc;
+}
+
+.c-bg-white {
+    background-color: white;
+}
+
+.c-brb {
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.c-brr {
+    border-right: 1px solid #dcdcdc;
+}
+
