@@ -71,6 +71,7 @@ body {
 /* Nav Bottom */
 .c-nav-bottom {
     position: sticky;
+    position: -webkit-sticky; /* Safari */
     bottom: 0;
     left: 0;
     display: flex;
